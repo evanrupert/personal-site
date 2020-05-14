@@ -7,13 +7,12 @@
   "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
+    "start": "yarn develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "deploy": "gatsby build && $(yarn bin)/gh-pages "
   },
   "dependencies": {
     "gatsby": "^2.21.22",
@@ -38,6 +37,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-config-airbnb": "^18.1.0",
-    "@typescript-eslint/parser": "^2.33.0"
+    "@typescript-eslint/parser": "^2.33.0",
+    "gh-pages": "^2.2.0"
   }
 }
