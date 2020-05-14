@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ],
+    "semi": "off",
+    "no-unused-vars": "off"
+  }
+}
