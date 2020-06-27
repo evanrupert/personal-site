@@ -5,3 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+import './src/scss/_fonts.scss'
+import './src/scss/global.scss'
