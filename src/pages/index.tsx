@@ -100,7 +100,7 @@ const SkillsSection = () => (
     <p className="other-experience">
       ASP.NET Entity Framework · ASP.NET MVC · ASP.NET Razer · ASP.NET Web Forms · Azure Functions · Azure VM · C
        · C# · C++ · Chat Bots · Clojure · Elm · F# · GCP Compute · GCP Functions · Go · Haskell · Java · Linux
-       · Python · Raspberry Pi · Rust · Sass · Scala · Slack
+       · Python · Raspberry Pi · Rust · Sass · Scala · Slack Bots
     </p>
   </section>
 )
